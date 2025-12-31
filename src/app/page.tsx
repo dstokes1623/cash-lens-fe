@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@mui/material";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         />
         <div className={styles.intro}>
           <h1>To get started, edit the page.tsx file.</h1>
+          <Button variant="contained">Hello</Button>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
